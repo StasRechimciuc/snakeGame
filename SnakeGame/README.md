@@ -18,5 +18,13 @@ SnakeGame este un proiect C++ care implementeaza jocul clasic Snake, unde jucato
 - `class GameEngine` - gestioneaza logica jocului, contine obiecte Apple, Snake si Board, metode pentru initializare si rulare.
 - `class Painter` - responsabil pentru desenarea imaginilor si textului pe tabla, folosind coordonate de tip `Point`.
 
+## Construirea proiectului
+
+1. Pentru a construi proiectul, asigurati-va ca aveti instalat MinGW si make.
+2. In directorul SnakeGame, rulati urmatoarele comenzi:
+	- `make clean` pentru a sterge fisierele obiect si executabilele vechi
+	- `make` pentru a compila si construi aplicatia
+3. Dupa compilare, va fi generat fisierul executabil `Snake.exe`.
+
 ## Autor
 Rechimciuc Stas DJ2401ro
